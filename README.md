@@ -13,4 +13,7 @@ Department of<br/> Computer Software Engineering
 
 멋쟁이 사자처럼 7기 교육에 사용된 **파이썬 문법 예제 파일**을 저장하는 레파지토리입니다.
 
-#### 1. Hello World [[코드]](https://github.com/LikeLionSCH/Python_Basic_Example/blob/master/helloworld.py)
+#### 1. Hello World! [[코드]](https://github.com/LikeLionSCH/Python_Basic_Example/blob/master/1_helloworld.py)
+#### 2. Comment [[코드]](https://github.com/LikeLionSCH/Python_Basic_Example/blob/master/2_comment.py)
+#### 3. Variable [[코드]](https://github.com/LikeLionSCH/Python_Basic_Example/blob/master/3_variable.py)
+#### 4. Data Type [[코드]](https://github.com/LikeLionSCH/Python_Basic_Example/blob/master/4_datatype.py)
