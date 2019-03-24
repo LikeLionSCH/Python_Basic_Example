@@ -17,3 +17,4 @@ Department of<br/> Computer Software Engineering
 #### 2. Comment [[코드]](https://github.com/LikeLionSCH/Python_Basic_Example/blob/master/2_comment.py)
 #### 3. Variable [[코드]](https://github.com/LikeLionSCH/Python_Basic_Example/blob/master/3_variable.py)
 #### 4. Data Type [[코드]](https://github.com/LikeLionSCH/Python_Basic_Example/blob/master/4_datatype.py)
+#### 5. Operator [[코드]](https://github.com/LikeLionSCH/Python_Basic_Example/blob/master/5_operator.py)
