@@ -15,8 +15,8 @@ ower', 'lstrip', 'maketrans', 'partition', 'replace', 'rfind', 'rindex', 'rjust'
 '''문자열의 문자 접근하기
 색인 연산자([])를 이용해 각 문자에 접근
 값은 변경 불가능하다.
-string[처음:끝 + 1:간격]
 
+string[처음:끝 + 1:간격]
 처음과 간격은 지정해주지 않아도된다.
 미설정 값은 처음은 0 간격은 1이다.
 '''
