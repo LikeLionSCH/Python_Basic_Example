@@ -1,8 +1,26 @@
+'''간단한 사칙연산 정수 계산기 클래스
+is_set_data() : 정수 데이터 설정 확인 함수
+set_data()    : 정수 데이터 설정 함수
+add()         : 정수 데이터 덧셈 함수
+sub()         : 정수 데이터 뺄셈 함수
+mul()         : 정수 데이터 곱셈 함수
+div()         : 정수 데이터 나눗셈 함수
+'''
 class Calculator:
+    '''클래스 초기화 함수
+    반환 값 : 없음
+    인자    : 없음
+    기능    : 변수 a, b, None으로 초기화
+    '''
     def __init__(self):
         self.a = None
         self.b = None
 
+    '''데이터 설정 확인 함수
+    반환 값 : boolean
+    인자    : 없음
+    기능    : 변수 a, b의 값 설정 확인
+    '''
     def is_set_data(self):
         if self.a is not None \
                 and self.b is not None:
@@ -10,28 +28,57 @@ class Calculator:
 
         return False
 
+    '''데이터 설정 함수
+    반환 값 : 없음
+    인자    : 설정 할 정수 값 2개
+    기능    : 변수 a, b의 데이터 설정
+    '''
     def set_data(self, a, b):
         self.a = a
         self.b = b
 
+    '''계산기 덧셈 함수
+    반환 값 : int or str
+    인자    : 없음
+    기능    : 두 개의 정수의 합을 반환
+              데이터 미설정 시 에러 메시지 반환
+    '''
     def add(self):
         if self.is_set_data():
             return self.a + self.b
 
         return "데이터를 먼저 설정해 주세요"
 
+    '''계산기 뺄셈 함수
+    반환 값 : int or str
+    인자    : 없음
+    기능    : 두 개의 정수의 차를 반환
+              데이터 미설정 시 에러 메시지 반환
+    '''
     def sub(self):
         if self.is_set_data():
             return self.a - self.b
 
         return "데이터를 먼저 설정해 주세요"
 
+    '''계산기 곱셈 함수
+    반환 값 : int or str
+    인자    : 없음
+    기능    : 두 개의 정수의 곱을 반환
+              데이터 미설정 시 에러 메시지 반환
+    '''
     def mul(self):
         if self.is_set_data():
             return self.a * self.b
 
         return "데이터를 먼저 설정해 주세요"
 
+    '''계산기 나눗셈 함수
+    반환 값 : float or str
+    인자    : 없음
+    기능    : 두 개의 정수를 나눈값 반환
+              데이터 미설정 시 에러 메시지 반환
+    '''
     def div(self):
         if self.is_set_data():
             return self.a / self.b
