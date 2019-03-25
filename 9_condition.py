@@ -30,7 +30,7 @@ else:
 
 grade = 70
 
-if grade >= 60:
+if grade > 60:
     print("합격입니다.")
 
 else:
