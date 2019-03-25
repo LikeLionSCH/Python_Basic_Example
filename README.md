@@ -23,5 +23,5 @@ Department of<br/> Computer Software Engineering
 #### 8. Dict [[코드]](https://github.com/LikeLionSCH/Python_Basic_Example/blob/master/8_dict.py)
 #### 9. Condition [[코드]](https://github.com/LikeLionSCH/Python_Basic_Example/blob/master/9_condition.py)
 #### 10. Loop [[코드]](https://github.com/LikeLionSCH/Python_Basic_Example/blob/master/10_loop.py)
-#### 11. Loop [[코드]](https://github.com/LikeLionSCH/Python_Basic_Example/blob/master/11_function.py)
-#### 12. Loop [[코드]](https://github.com/LikeLionSCH/Python_Basic_Example/blob/master/12_class.py)
+#### 11. Function [[코드]](https://github.com/LikeLionSCH/Python_Basic_Example/blob/master/11_function.py)
+#### 12. Class [[코드]](https://github.com/LikeLionSCH/Python_Basic_Example/blob/master/12_class.py)
