@@ -96,11 +96,11 @@ print(calc.a, calc.b, calc.is_set_data())  # 데이터 설정 후 계산기 객�
 print(calc.a, "+", calc.b, "=", calc.add())  # 계산기 객체 덧셈 함수 호출
 print(calc.a, "-", calc.b, "=", calc.sub())  # 계산기 객체 뺄셈 함수 호출
 print(calc.a, "*", calc.b, "=", calc.mul())  # 계산기 객체 곱셈 함수 호출
-print(calc.a, "//", calc.b, "=", calc.div())  # 계산기 객체 나눗셈 함수 호출
+print(calc.a, "/", calc.b, "=", calc.div())  # 계산기 객체 나눗셈 함수 호출
 
 no_data_calc = Calculator()  # 데이터를 설정하지 않을 계산기 객체 선언
 
 print(no_data_calc.a, "+", no_data_calc.b, "=", no_data_calc.add())  # 데이터 설정이 안된 계산기 객체 덧셈 함수 사용
 print(no_data_calc.a, "-", no_data_calc.b, "=", no_data_calc.sub())  # 데이터 설정이 안된 계산기 객체 뺄셈 함수 사용
 print(no_data_calc.a, "*", no_data_calc.b, "=", no_data_calc.mul())  # 데이터 설정이 안된 계산기 객체 곱셈 함수 사용
-print(no_data_calc.a, "//", no_data_calc.b, "=", no_data_calc.div())  # 데이터 설정이 안된 계산기 객체 나눗셈 함수 사용
+print(no_data_calc.a, "/", no_data_calc.b, "=", no_data_calc.div())  # 데이터 설정이 안된 계산기 객체 나눗셈 함수 사용
