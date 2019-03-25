@@ -101,3 +101,20 @@ print(sum([x for x in range(101)])) # 5050
 
 # 해결 방법 4
 print(sum(range(101))) # 5050
+
+'''문제)
+1부터 100까지의 소수를 출력하세요.
+'''
+
+for i in range(2, 101):
+    check = True
+
+    for j in range(2, i):
+        if i % j == 0:
+            check = False
+            break
+
+    if check:
+        print(i, end=" ")
+
+print()
